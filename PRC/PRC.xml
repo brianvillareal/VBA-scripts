@@ -1,0 +1,31 @@
+<customUI xmlns='http://schemas.microsoft.com/office/2006/01/customui'>
+<ribbon>
+<tabs>
+
+<tab id="tabPRC" label="PRC">
+
+	<group  id="groupAbout" label="About">
+		<labelControl id="labelPRC" getLabel="GetLabelPRC" />
+	</group>
+
+	<group  id="groupPeopleSoft" label="PeopleSoft">
+		<button id="buttonConvert"
+			label="Waystar to PS"
+			size="large"
+			onAction="InitConvert"
+			imageMso="CreateQueryFromWizard"/>
+	</group>
+
+	<group  id="groupSunPort" label="SunPort">
+		<button id="buttonTrim"
+			label="Trim Check Prefixes"
+			size="large"
+			onAction="InitTrim"
+			imageMso="ContactCardCut"/>
+	</group>
+
+</tab>
+
+</tabs>
+</ribbon>
+</customUI>
