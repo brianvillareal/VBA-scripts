@@ -4,4 +4,4 @@
 
   * Athena
   * Install
-  * Payment Reconciliation Center (PRC)
+  * PRC
