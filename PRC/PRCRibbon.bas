@@ -1,4 +1,4 @@
-Attribute VB_Name = "PRCExcelRibbon"
+Attribute VB_Name = "PRCRibbon"
 Option Explicit
 
 Sub GetLabelPRC(control As IRibbonControl, ByRef returnedVal)
