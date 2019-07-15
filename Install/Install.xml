@@ -1,0 +1,65 @@
+<customUI xmlns='http://schemas.microsoft.com/office/2006/01/customui'>
+<ribbon>
+<tabs>
+
+<tab id="tabInstall" label="Install">
+
+	<group  id="groupAbout" label="About">
+		<labelControl id="labelInstall" getLabel="GetLabelInstall" />
+	</group>
+
+	<group  id="groupRecon" label="Reconciliation">
+		<button id="Dictionary"
+			label="Aging Dictionary"
+			size="large"
+			onAction="UpdateDictionary"
+			imageMso="BibliographyAddNewSource"/>
+
+		<button id="OIR"
+			label="OIR"
+			size="large"
+			onAction="InstallAddIn"
+			imageMso="CreateFormNavigationTopLeft"/>
+
+		<separator id="Sep01" />
+
+		<button id="PRC"
+			label="PRC"
+			size="large"
+			onAction="InstallAddIn"
+			imageMso="CreateFormNavigationTopRight"/>
+	</group>
+
+	<group  id="groupMorning" label="Morning Download">
+		<button id="Morning"
+			label="Daily Download"
+			size="large"
+			onAction="InstallAddIn"
+			imageMso="AddCalendarFromInternet"/>
+
+		<button id="Other"
+			label="Other Loads"
+			size="large"
+			onAction="InstallAddIn"
+			imageMso="AddCalendarFromInternet"/>
+
+		<button id="RT10"
+			label="RT10 Loads"
+			size="large"
+			onAction="InstallAddIn"
+			imageMso="AddCalendarFromInternet"/>
+	</group>
+
+	<group  id="groupAthena" label="Athena">
+		<button id="buttonRT999"
+			label="RT999"
+			size="large"
+			onAction="InstallAddIn"
+			imageMso="ArrangeByStore"/>
+	</group>
+
+</tab>
+
+</tabs>
+</ribbon>
+</customUI>
