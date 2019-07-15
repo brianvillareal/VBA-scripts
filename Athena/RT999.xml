@@ -4,7 +4,7 @@
 <tab id="tabAthena" label="RT 999">
     
 	<group  id="groupAbout" label="About">
-		<labelControl id="labelAthena" getLabel="GetLabelAthenaRT999"/>
+		<labelControl id="labelAthena" getLabel="GetLabelRT999"/>
 	</group>
 
 	<group  id="groupOpen" label="Rename">
