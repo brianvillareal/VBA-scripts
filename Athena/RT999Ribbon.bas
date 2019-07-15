@@ -1,4 +1,4 @@
-Attribute VB_Name = "RT999ExcelRibbon"
+Attribute VB_Name = "RT999Ribbon"
 Option Explicit
 
 Sub GetLabelRT999(control As IRibbonControl, ByRef returnedVal)
