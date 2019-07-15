@@ -1,4 +1,4 @@
-# custom-Excel-Add-ins
+# custom-Excel
 
 .bas + .xml = Excel Add-in
 
