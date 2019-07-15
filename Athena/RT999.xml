@@ -1,0 +1,143 @@
+<customUI xmlns='http://schemas.microsoft.com/office/2006/01/customui'>
+<ribbon>
+<tabs>
+<tab id="tabAthena" label="RT 999">
+    
+	<group  id="groupAbout" label="About">
+		<labelControl id="labelAthena" getLabel="GetLabelAthenaRT999"/>
+	</group>
+
+	<group  id="groupOpen" label="Rename">
+		<button id="buttonOriginal"
+			label="Original ACD"
+			size="large"
+			onAction="InitFilesFTP"
+			imageMso="CheckOutEntry"/>
+
+		<button id="buttonUnapplied"
+			label="Unapplied CDUA"
+			size="large"
+			onAction="InitFilesFTP"
+			imageMso="CheckOutEntry"/>
+
+		<button id="buttonUnidentified"
+			label="Unidentified CDUI"
+			size="large"
+			onAction="InitFilesFTP"
+			imageMso="CheckOutEntry"/>
+
+		<button id="buttonUnpostable"
+			label="Unpostable CDUP"
+			size="large"
+			onAction="InitFilesFTP"
+			imageMso="CheckOutEntry"/>
+	</group>
+
+	<group  id="groupMove" label="Move with Prior Day">
+		<button id="OriginalMove"
+			label="Original ACD"
+			size="large"
+			onAction="InitPriorDay"
+			imageMso="ArrowsMore"/>
+
+		<button id="UnappliedMove"
+			label="Unapplied CDUA"
+			size="large"
+			onAction="InitPriorDay"
+			imageMso="ArrowsMore"/>
+
+		<button id="UnidentifiedMove"
+			label="Unidentified CDUI"
+			size="large"
+			onAction="InitPriorDay"
+			imageMso="ArrowsMore"/>
+
+		<button id="UnpostableMove"
+			label="Unpostable CDUP"
+			size="large"
+			onAction="InitPriorDay"
+			imageMso="ArrowsMore"/>
+	</group>
+
+	<group  id="groupBalance" label="Balance">
+		<button id="OriginalBalance"
+			label="Original APD"
+			size="large"
+			onAction="InitCurrentDay"
+			imageMso="ControlPropertySecondaryFieldChangeBinding"/>
+
+		<button id="UnappliedBalance"
+			label="Unapplied PDUA"
+			size="large"
+			onAction="InitCurrentDay"
+			imageMso="ControlPropertySecondaryFieldChangeBinding"/>
+
+		<button id="UnidentifiedBalance"
+			label="Unidentified PDUI"
+			size="large"
+			onAction="InitCurrentDay"
+			imageMso="ControlPropertySecondaryFieldChangeBinding"/>
+
+		<button id="UnpostableBalance"
+			label="Unpostable PDUP"
+			size="large"
+			onAction="InitCurrentDay"
+			imageMso="ControlPropertySecondaryFieldChangeBinding"/>
+	</group>
+
+	<group  id="groupRT999" label="RT 999">
+		<button id="OriginalReconRT999"
+			label="Original APD"
+			size="large"
+			onAction="InitLoadedRT999"
+			imageMso="_3DSurfaceWireFrameClassic"/>
+
+		<button id="UnappliedReconRT999"
+			label="Unapplied PDUA"
+			size="large"
+			onAction="InitLoadedRT999"
+			imageMso="_3DSurfaceWireFrameClassic"/>
+
+		<button id="UnidentifiedReconRT999"
+			label="Unidentified PDUI"
+			size="large"
+			onAction="InitLoadedRT999"
+			imageMso="_3DSurfaceWireFrameClassic"/>
+
+		<button id="UnpostableReconRT999"
+			label="Unpostable PDUP"
+			size="large"
+			onAction="InitLoadedRT999"
+			imageMso="_3DSurfaceWireFrameClassic"/>
+	</group>
+
+	<group  id="groupRT1" label="RT 1">
+		<button id="OriginalReconRT1"
+			label="Original APD"
+			size="large"
+			onAction="InitLoadedRT1"
+			imageMso="_3DStyle"/>
+
+		<button id="UnappliedReconRT1"
+			label="Unapplied PDUA"
+			size="large"
+			onAction="InitLoadedRT1"
+			imageMso="_3DStyle"/>
+
+		<button id="UnidentifiedReconRT1"
+			label="Unidentified PDUI"
+			size="large"
+			onAction="InitLoadedRT1"
+			imageMso="_3DStyle"/>
+
+		<button id="UnpostableReconRT1"
+			label="Unpostable PDUP"
+			size="large"
+			onAction="InitLoadedRT1"
+			imageMso="_3DStyle"/>
+	</group>
+
+</tab>
+</tabs>
+</ribbon>
+</customUI>
