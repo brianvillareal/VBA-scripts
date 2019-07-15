@@ -1,6 +1,6 @@
 # custom-Excel-Add-ins
 
-.bas + .xml = Complete custom Excel Add-in
+.bas + .xml = Excel Add-in
 
   * Athena
   * Payment Reconciliation Center (PRC)
